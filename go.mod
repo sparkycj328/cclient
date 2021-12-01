@@ -1,10 +1,14 @@
 module github.com/sparkycj328/cclient
 
-go 1.16
+go 1.17
 
 require (
-	github.com/refraction-networking/utls v0.0.0-20200806014556-219d12d0a4a1
-	golang.org/x/crypto v0.0.0-20200728195943-123391ffb6de // indirect
-	golang.org/x/net v0.0.0-20200602114024-627f9648deb9
-	golang.org/x/sys v0.0.0-20200602225109-6fdc65e7d980 // indirect
+	github.com/refraction-networking/utls v1.0.0
+	golang.org/x/net v0.0.0-20211123203042-d83791d6bcd9
+)
+
+require (
+	golang.org/x/crypto v0.0.0-20211117183948-ae814b36b871 // indirect
+	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
+	golang.org/x/text v0.3.6 // indirect
 )
