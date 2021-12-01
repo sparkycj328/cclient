@@ -1,4 +1,4 @@
-module github.com/sparkycj328/cclient
+module cclient
 
 go 1.17
 
